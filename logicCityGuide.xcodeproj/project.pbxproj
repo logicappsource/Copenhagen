@@ -42,6 +42,11 @@
 		CDBCA4C61D1B068800803710 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBCA4C41D1B068800803710 /* FBSDKCoreKit.framework */; };
 		CDBCA4C71D1B068800803710 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBCA4C51D1B068800803710 /* FBSDKLoginKit.framework */; };
 		CDBCA4C91D1B069E00803710 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBCA4C81D1B069D00803710 /* FBSDKShareKit.framework */; };
+		CDBCA4CE1D1B0BAA00803710 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBCA4CD1D1B0BAA00803710 /* MaterialView.swift */; };
+		CDBCA4D11D1B0BFE00803710 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBCA4D01D1B0BFE00803710 /* Constants.swift */; };
+		CDBCA4D31D1B10F400803710 /* facebook-login-button.d04fd8972162.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBCA4D21D1B10F400803710 /* facebook-login-button.d04fd8972162.png */; };
+		CDBCA4D51D1B11D300803710 /* Materialbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBCA4D41D1B11D300803710 /* Materialbutton.swift */; };
+		CDBCA4D71D1B155900803710 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBCA4D61D1B155900803710 /* MaterialTextField.swift */; };
 		DB24BCCA1C35862F006B129C /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = DB24BCC91C35862F006B129C /* back.png */; };
 		DB24BCCC1C3590BC006B129C /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB24BCCB1C3590BC006B129C /* GoogleMobileAds.framework */; };
 		DB24BCD41C35910A006B129C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB24BCCE1C35910A006B129C /* CoreMedia.framework */; };
@@ -115,6 +120,11 @@
 		CDBCA4C41D1B068800803710 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		CDBCA4C51D1B068800803710 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		CDBCA4C81D1B069D00803710 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		CDBCA4CD1D1B0BAA00803710 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		CDBCA4D01D1B0BFE00803710 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CDBCA4D21D1B10F400803710 /* facebook-login-button.d04fd8972162.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-login-button.d04fd8972162.png"; sourceTree = "<group>"; };
+		CDBCA4D41D1B11D300803710 /* Materialbutton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Materialbutton.swift; sourceTree = "<group>"; };
+		CDBCA4D61D1B155900803710 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 		DB24BCC91C35862F006B129C /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		DB24BCCB1C3590BC006B129C /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		DB24BCCE1C35910A006B129C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -170,6 +180,7 @@
 		9562A8071C343A30009C0411 = {
 			isa = PBXGroup;
 			children = (
+				CDBCA4CF1D1B0BE800803710 /* Util */,
 				CDBCA4CC1D1B092400803710 /* Controller */,
 				CDBCA4CB1D1B091900803710 /* View */,
 				CDBCA4CA1D1B091300803710 /* Model */,
@@ -234,6 +245,7 @@
 		9562A8701C3445A0009C0411 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CDBCA4D21D1B10F400803710 /* facebook-login-button.d04fd8972162.png */,
 				955F123E1C52B3B900A353C4 /* phoneIcon.png */,
 				955F123F1C52B3B900A353C4 /* phoneIcon@2x.png */,
 				955F12401C52B3B900A353C4 /* phoneIcon@3x.png */,
@@ -266,6 +278,9 @@
 		CDBCA4CB1D1B091900803710 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CDBCA4CD1D1B0BAA00803710 /* MaterialView.swift */,
+				CDBCA4D41D1B11D300803710 /* Materialbutton.swift */,
+				CDBCA4D61D1B155900803710 /* MaterialTextField.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -275,6 +290,14 @@
 			children = (
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		CDBCA4CF1D1B0BE800803710 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CDBCA4D01D1B0BFE00803710 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		DB24BCC81C3583A2006B129C /* Frameworks */ = {
@@ -363,7 +386,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = Anna;
+				ORGANIZATIONNAME = LogicAppSource;
 				TargetAttributes = {
 					9562A80F1C343A30009C0411 = {
 						CreatedOnToolsVersion = 7.2;
@@ -416,6 +439,7 @@
 				955F12431C52B3B900A353C4 /* phoneIcon@3x.png in Resources */,
 				95CE1E5A1C35570800D51E3B /* addressIcon.png in Resources */,
 				DB24BCDC1C3594FD006B129C /* shareIcon.png in Resources */,
+				CDBCA4D31D1B10F400803710 /* facebook-login-button.d04fd8972162.png in Resources */,
 				9562A81E1C343A30009C0411 /* LaunchScreen.storyboard in Resources */,
 				9562A81B1C343A30009C0411 /* Assets.xcassets in Resources */,
 				95CE1E601C35582100D51E3B /* hourIcon.png in Resources */,
@@ -459,10 +483,14 @@
 				9562A86B1C343CD4009C0411 /* CustomData.m in Sources */,
 				9562A8161C343A30009C0411 /* ViewController.swift in Sources */,
 				9562A8741C345B3D009C0411 /* CategoriesViewController.swift in Sources */,
+				CDBCA4CE1D1B0BAA00803710 /* MaterialView.swift in Sources */,
 				95CE1E561C3549F600D51E3B /* DetailViewController.swift in Sources */,
+				CDBCA4D11D1B0BFE00803710 /* Constants.swift in Sources */,
+				CDBCA4D71D1B155900803710 /* MaterialTextField.swift in Sources */,
 				9562A8141C343A30009C0411 /* AppDelegate.swift in Sources */,
 				9562A8881C346535009C0411 /* InfoViewController.swift in Sources */,
 				95CE1E6C1C3563E300D51E3B /* CustomAnnotation.swift in Sources */,
+				CDBCA4D51D1B11D300803710 /* Materialbutton.swift in Sources */,
 				95CE1E761C3567EA00D51E3B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,7 +642,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = CityGuide/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = logicCopenhagen;
 				PRODUCT_NAME = logicCityGuide;
@@ -640,7 +668,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = CityGuide/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = logicCopenhagen;
 				PRODUCT_NAME = logicCityGuide;
